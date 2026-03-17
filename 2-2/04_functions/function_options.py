@@ -19,8 +19,10 @@ print()
 
 # return sends a value back to the caller.
 def times_five(x):
-    return 5 * x
+    return 5 * x, "haha"
 
+aaa, bbb = times_five(3)
+print(aaa, bbb)
 
 print(times_five(3))
 print(times_five(5))

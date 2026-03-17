@@ -1,5 +1,5 @@
 # A class can have a simple shared value.
-class MyClass:
+class MyClass():
     x = 5
 
 

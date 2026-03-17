@@ -11,7 +11,7 @@ def draw_square(t, size):
 t = turtle.Turtle()
 t.shape("turtle")
 
-draw_square(t, 100)
+draw_square(t, 500)
 
 # Keep the turtle window open.
 turtle.mainloop()
