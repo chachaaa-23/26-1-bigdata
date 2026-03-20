@@ -20,7 +20,7 @@ class BinaryTree:
         else:
             self.data = data
 
-    def inorderTraversal(self, root):
+    def inorderTraversal(self, root): #트리 최솟값(왼쪽 leaf) ~ root ~ 최댓값
         res = []
         if root:
             res = self.inorderTraversal(root.left)
@@ -28,7 +28,7 @@ class BinaryTree:
             res = res + self.inorderTraversal(root.right)
         return res
 
-    def PreorderTraversal(self, root):
+    def PreorderTraversal(self, root): #root ~ 왼쪽 subtree ~ 오른쪽 subtree
         res = []
         if root:
             res.append(root.data)
@@ -36,7 +36,7 @@ class BinaryTree:
             res = res + self.PreorderTraversal(root.right)
         return res
 
-    def PostorderTraversal(self, root):
+    def PostorderTraversal(self, root): #최솟값~ left subtree~ 최댓값~ right subtree~ root
         res = []
         if root:
             res = self.PostorderTraversal(root.left)
