@@ -10,6 +10,7 @@ old_log_path = os.path.join(logs_dir, "old.log")
 # Make an old log file first.
 os.makedirs(logs_dir, exist_ok=True)
 
+#with 문: 내부 구문 실행 후 자동 닫힘. 
 with open(old_log_path, "w", encoding="utf-8") as f:
     f.write("Old log")
 

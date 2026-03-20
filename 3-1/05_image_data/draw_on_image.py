@@ -16,7 +16,7 @@ image = Image.open(input_path)
 
 # Draw one red circle on the image.
 draw = ImageDraw.Draw(image)
-draw.ellipse((140, 140, 380, 380), outline="red", width=6)
+draw.ellipse((140, 140, 380, 380), outline="red", width=6) #원본 복제 저장ㅇㅇ
 
 # Save and show the edited image.
 image.save(output_path)

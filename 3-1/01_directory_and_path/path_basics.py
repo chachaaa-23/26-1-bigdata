@@ -20,4 +20,4 @@ print()
 print(os.path.basename(path_test))
 
 # splitext() separates the name and extension.
-print(os.path.splitext(file_name))
+print(os.path.splitext(file_name)) 

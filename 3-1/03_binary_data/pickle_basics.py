@@ -9,7 +9,7 @@ file_path = os.path.join(generated_dir, "numbers.pkl")
 
 os.makedirs(generated_dir, exist_ok=True)
 
-with open(file_path, "wb") as f:
+with open(file_path, "wb") as f: # binary 숫자로 저장- write binary
     pickle.dump(data, f)
 
 # Load the saved data back into Python.
