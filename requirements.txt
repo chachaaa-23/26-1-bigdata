@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 pillow==12.1.1
+=======
+numpy==2.4.3
+pillow==12.1.1
+>>>>>>> refs/remotes/origin/main
