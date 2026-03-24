@@ -1,4 +1,5 @@
 import heapq
+# min heap 라이브러리
 
 H = [21, 1, 45, 78, 3, 5]
 
