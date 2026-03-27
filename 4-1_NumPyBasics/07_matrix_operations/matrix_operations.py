@@ -42,7 +42,7 @@ print(A * B)
 print()
 
 # @ means matrix multiplication.
-print("A @ B:")
+print("A @ B:") #일반적인 행렬곱
 print(A @ B)
 
 print()
@@ -56,7 +56,7 @@ print(inverse_C)
 inverse_A = np.linalg.inv(A)
 
 print("inv(A):")
-print(inverse_A)
+print(inverse_A) # 역함수 function, numpy 내장됨! (데이터 찌꺼기값 주의)
 
 print()
 
@@ -67,7 +67,7 @@ print(A @ inverse_A)
 print()
 
 # .T changes rows into columns.
-print("A.T:")
+print("A.T:") #transpose matrix 계산
 print(A.T)
 
 print()

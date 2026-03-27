@@ -14,7 +14,7 @@ print("vector.shape:", vector_2.shape)
 print()
 
 # The result keeps one value for each matrix row.
-result = matrix @ vector
+result = matrix @ vector #자동으로 열백터 변환
 result_2 = matrix @ vector_2
 
 print("matrix @ vector:")

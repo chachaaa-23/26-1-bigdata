@@ -17,12 +17,12 @@ print()
 
 # The outer product combines every value in a with every value in b.
 print("Outer product with np.outer(a, b):")
-print(np.outer(a, b))
+print(np.outer(a, b)) #벡터의 곱으로 만든 행렬
 
 print()
 
 # The cross product returns a vector perpendicular to both inputs.
-print("Cross product with np.cross(a, b):", np.cross(a, b))
+print("Cross product with np.cross(a, b):", np.cross(a, b)) #벡터의 외적 계산
 
 print()
 

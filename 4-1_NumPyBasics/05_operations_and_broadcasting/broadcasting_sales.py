@@ -21,6 +21,7 @@ print()
 
 # NumPy broadcasts the product prices across every row automatically.
 revenue = sales * price
+#아다마르 곱이 됨 주의! (not 일반 행렬곱))
 
 print("Revenue matrix:")
 print(revenue)

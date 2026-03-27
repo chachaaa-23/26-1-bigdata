@@ -1,6 +1,7 @@
 import numpy as np
 
-# gradient() estimates the rate of change at each point.
+# gradient() estimates the rate of change at each point. 
+# -> point 간격마다 기울기 계산
 one_dimensional_data = np.array([0, 1, 4, 9, 16], dtype=float)
 
 print("1D data:", one_dimensional_data)

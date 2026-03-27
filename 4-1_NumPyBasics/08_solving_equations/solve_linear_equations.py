@@ -1,5 +1,7 @@
 import numpy as np
 
+# 연립방정식 구하기
+
 # Solve the system:
 # 2x + y = 7
 # x - y = 2
@@ -10,7 +12,7 @@ constants_2d = np.array([7, 2], dtype=float)
 
 solution_2d = np.linalg.solve(coefficients_2d, constants_2d)
 
-print("2-variable solution [x, y]:")
+print("2-variable solution [x, y]:") #연립방정식 해 구하기
 print(solution_2d)
 
 print()
@@ -42,7 +44,8 @@ print()
 # print(coefficients_3d @ solution_3d)
 
 # A = np.array([[1, 1],
-#               [1, 1]], dtype=float)
+#               [1, 1]], dtype=float) 
+# ^#역행열이 없기 때문에 에러 발생 (singular matrix)
 
 # b = np.array([1, 2], dtype=float)
 
