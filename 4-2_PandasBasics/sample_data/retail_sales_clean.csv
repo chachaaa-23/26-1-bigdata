@@ -1,0 +1,16 @@
+order_id,order_date,region,category,product,customer_type,quantity,unit_price
+1001,2026-01-03,Seoul,Laptop,Notebook Pro,Corporate,2,1200
+1002,2026-01-05,Busan,Accessory,Mouse,Individual,5,25
+1003,2026-01-07,Seoul,Monitor,UltraView 27,Corporate,1,310
+1004,2026-01-12,Incheon,Laptop,Notebook Air,Individual,1,980
+1005,2026-01-18,Daegu,Accessory,Keyboard,Corporate,4,45
+1006,2026-02-02,Seoul,Accessory,Mouse,Individual,3,25
+1007,2026-02-08,Busan,Monitor,UltraView 27,Corporate,2,310
+1008,2026-02-10,Incheon,Laptop,Notebook Pro,Corporate,1,1200
+1009,2026-02-16,Daegu,Accessory,Docking Station,Individual,2,140
+1010,2026-02-21,Seoul,Laptop,Notebook Air,Individual,2,980
+1011,2026-03-03,Busan,Accessory,Keyboard,Corporate,3,45
+1012,2026-03-06,Incheon,Monitor,UltraView 27,Individual,1,310
+1013,2026-03-11,Seoul,Accessory,Mouse,Corporate,10,25
+1014,2026-03-14,Daegu,Laptop,Notebook Pro,Corporate,1,1200
+1015,2026-03-22,Busan,Accessory,Docking Station,Individual,1,140

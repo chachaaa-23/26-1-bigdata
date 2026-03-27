@@ -1,0 +1,13 @@
+Order ID,Order Date,Region ,Category,Product Name,Quantity,Unit Price,Customer Type,Channel
+1001,2026/01/03, seoul ,laptop,Notebook Pro,2,$1200,corporate,online
+1002,2026/01/05,Busan,accessory,Mouse,5,$25,individual,offline
+1003,2026/01/07,SEOUL,monitor,UltraView 27,1,$310,corporate,online
+1004,2026/01/12,Incheon,laptop,Notebook Air,1,$980,individual,offline
+1005,2026/01/18, Daegu,accessory,Keyboard,,$45,corporate,online
+1006,2026-02-02,Seoul,accessory,Mouse,3,$25,Individual,online
+1006,2026-02-02,Seoul,accessory,Mouse,3,$25,Individual,online
+1007,2026-02-08,Busan,monitor,UltraView 27,2,$310,corporate,offline
+1008,2026-02-10,Incheon,laptop,Notebook Pro,1,$1200,corporate,online
+1009,2026-02-16,Daegu,accessory,Docking Station,2,$140,individual,offline
+1010,2026-02-21,seoul,laptop,Notebook Air,2,$980,individual,online
+1011,2026/03/03,Busan,accessory,Keyboard,3,$45, corporate ,offline
