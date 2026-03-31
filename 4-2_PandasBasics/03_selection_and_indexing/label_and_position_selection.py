@@ -12,7 +12,7 @@ print(student_df)
 
 print()
 
-# loc uses row and column labels.
+# loc uses row and column labels. <-- loc = location, user defined index location으로 바꾸기
 print("df.loc['st_2']:")
 print(student_df.loc["st_2"])
 

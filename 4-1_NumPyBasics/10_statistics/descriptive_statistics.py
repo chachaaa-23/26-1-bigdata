@@ -1,6 +1,7 @@
 import numpy as np
 
 # Use score data to practice descriptive statistics.
+#shape, dtype, ... 값 지님
 scores = np.array([72, 85, 90, 68, 77, 95, 88, 91, 73, 84], dtype=float)
 
 print("Scores:", scores)
@@ -41,8 +42,8 @@ print(class_scores)
 
 print()
 
-# axis=0 gives column-based statistics.
+# axis=0 gives column-based statistics. 열(세로)
 print("Subject means:", class_scores.mean(axis=0))
 
-# axis=1 gives row-based statistics.
+# axis=1 gives row-based statistics. 행(가로)
 print("Student means:", class_scores.mean(axis=1))

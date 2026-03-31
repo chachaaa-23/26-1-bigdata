@@ -1,7 +1,7 @@
 import pandas as pd
 
 # A DataFrame is a 2D table with rows and columns.
-student_df = pd.DataFrame({
+student_df = pd.DataFrame({ # 행값= items, 각각의 feature DataFrame 에 저장됨
     "name": ["Minji", "Joon", "Hana", "Taeho"],
     "age": [20, 21, 22, 20],
     "major": ["Data Science", "AI", "Economics", "Design"]

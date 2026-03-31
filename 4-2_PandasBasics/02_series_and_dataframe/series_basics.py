@@ -2,7 +2,7 @@ import pandas as pd
 
 # A Series stores one labeled column of data.
 temperature_series = pd.Series([21, 23, 20, 24],
-                               index=["Mon", "Tue", "Wed", "Thu"],
+                               index=["Mon", "Tue", "Wed", "Thu"], #0,1,2,... 인덱스로 접근x, 사용자지정 index 로 접근
                                name="temperature")
 
 print("Series:")
