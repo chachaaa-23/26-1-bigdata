@@ -19,7 +19,7 @@ print()
 
 # return sends a value back to the caller.
 def times_five(x):
-    return 5 * x, "haha"
+    return (5 * x, "haha") #tuple 로 결과 출력하기
 
 aaa, bbb = times_five(3)
 print(aaa, bbb)

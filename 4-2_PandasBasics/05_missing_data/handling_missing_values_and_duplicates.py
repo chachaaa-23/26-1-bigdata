@@ -12,11 +12,11 @@ print(sales_df)
 print()
 
 sales_df.columns = (sales_df.columns
-                    .str.strip()
-                    .str.lower()
-                    .str.replace(" ", "_"))
+                    .str.strip() #앞뒤공백 제거
+                    .str.lower() #소문자 변경
+                    .str.replace(" ", "_")) #change space into _ (단어 사이의 공백 남아있음)
 
-sales_df["region"] = sales_df["region"].str.strip().str.title()
+sales_df["region"] = sales_df["region"].str.strip().str.title() #title() : 앞만 대문자인 형식으로 변경
 sales_df["product_name"] = sales_df["product_name"].str.strip()
 sales_df["quantity"] = pd.to_numeric(sales_df["quantity"], errors="coerce")
 # Mixed date formats are handled with format="mixed".
@@ -24,9 +24,8 @@ sales_df["order_date"] = pd.to_datetime(sales_df["order_date"], errors="coerce",
 
 print()
 
-print("Rows before cleaning:", len(sales_df))
-print("Duplicate order_id count:", sales_df.duplicated(subset=["order_id"]).sum())
-
+print("Rows before 중복치 제거:", len(sales_df)) #행의 개수
+print("Duplicate order_id count:", sales_df.duplicated(subset=["order_id"]).sum()) #order id 기준으로 중복치 제거
 print()
 
 # Fill missing quantity with the median quantity.

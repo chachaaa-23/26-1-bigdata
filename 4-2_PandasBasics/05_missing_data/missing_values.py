@@ -26,7 +26,7 @@ print()
 
 # dropna() removes rows with missing values in selected columns.
 print("Rows without missing scores:")
-print(student_df.dropna(subset=["score"]))
+print(student_df.dropna(subset=["score"])) # << score 행의 값이 없는 data point, drop하기
 
 print()
 

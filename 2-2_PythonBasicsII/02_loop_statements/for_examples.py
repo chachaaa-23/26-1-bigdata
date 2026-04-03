@@ -4,6 +4,7 @@ animals = ["Tadpole", "Frog", "Catfish"]
 
 total = 0
 
+# nums 에 있는 element 하나하나를 n에 대응시킨다
 for n in nums:
     total = total + n
 

@@ -25,7 +25,7 @@ print(sales_df.columns.tolist())
 print()
 
 # Clean text columns so the same value is written consistently.
-sales_df["region"] = sales_df["region"].str.strip().str.title()
+sales_df["region"] = sales_df["region"].str.strip().str.title() #string 앞뒤의 공백제거, 앞대문자 형식으로 변경
 sales_df["category"] = sales_df["category"].str.strip().str.title()
 sales_df["customer_type"] = sales_df["customer_type"].str.strip().str.title()
 sales_df["channel"] = sales_df["channel"].str.strip().str.title()

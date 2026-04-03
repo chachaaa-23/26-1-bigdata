@@ -13,7 +13,7 @@ print(score_df)
 
 # New columns can come from existing columns.
 score_df["total"] = score_df["midterm"] + score_df["final"]
-score_df["passed"] = score_df["total"] >= 160
+score_df["passed"] = score_df["total"] >= 160 #boolean 값들을 dictionary 처럼 넣기
 
 print("After adding columns:")
 print(score_df)
