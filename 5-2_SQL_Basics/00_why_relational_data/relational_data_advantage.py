@@ -19,7 +19,8 @@ CREATE TABLE departments (
 """)
 
 # The same major can appear in many student rows.
-student_rows = [
+# 매핑관계 확실한 데이터끼리 묶음. 
+student_rows = [ 
     ("Mina", "CS"),
     ("Jisoo", "Math"),
     ("Kevin", "CS")
